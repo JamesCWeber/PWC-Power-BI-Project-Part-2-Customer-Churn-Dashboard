@@ -52,4 +52,42 @@ In Excel:
 * The "SeniorCitizen" column is in binary (1 = yes, 0 = no). However, other columns such as "Partners" and "Dependents" are written in Yes No format. The "SeniorCitizen" column was converted into Yes No format to match with the rest of the columns.
 
 In Power BI:
-* 
+* The "tenure" column shows the number of months a customer has done business with PhoneNow. The range in the "tenure" column is 1-72. Rather than trying to plot a graph with 72 points, it is better to group the number of months into a range of years (<= 1 year, <= 2 years, etc.). Power BI cannot convert number of months into a range of years, so a calculated column must be created. A calculated column called "Yearly Tenure" is created using this DAX function:
+```
+Yearly Tenure = SWITCH(
+                       TRUE(),
+                       'Clean'[tenure]<=12,"<= 1 year",
+                       'Clean'[tenure]<=24,"<= 2 years",
+                       'Clean'[tenure]<=36,"<= 3 years",
+                       'Clean'[tenure]<=48,"<= 4 years",
+                       'Clean'[tenure]<=60,"<= 5 years",
+                       'Clean'[tenure]<=72,"<= 6 years")
+
+# The SWITCH() function evaluates an expression against a list of values and returns one of multiple possible result expressions.
+# The TRUE() attribute replaces multiple IF statements.
+# The remaining attributes tells the function how to group each set of values (if the number in the "tenure" column is <= 12, the value in the "Yearly Tenure" column is "<= 1 year").
+```
+* PhoneNow provides 8 different services which include Device Protection. To calculate the percentage of customers who subscribed to a service that PhoneNow provides, this DAX function was used:
+```
+Device Protection % = DIVIDE(
+                             CALCULATE(COUNT('Clean'[DeviceProtection]), 'Clean'[DeviceProtection] ="Yes"),
+                             COUNT('Clean'[DeviceProtection]),
+                             0) * 100
+
+# The DIVIDE() function is divided into 3 attributes.
+# The first two attributes are the 2 values you want to divide (# of customers who are subscribed to the Device Protection service and the total number of customers).
+# The third attribute is the number you want the function to output if a number is divided by 0.
+# The COUNT() function counts the number of rows in the "DeviceProtection" column (total number of customers).
+# The CALCULATE() function allows you to perform an aggregate calculation with a filter applied.
+# In this example, we want the number of rows in the "DeviceProtection" column with a filter applied where the value is "Yes" (number of customers who subscribed to the Device Protection service).
+```
+
+# Data Analysis and Visuals
+A copy of the below dashboards are included in this repository under the file name: James Weber PwC Churn Dashboard.pbix.
+
+The below image is a screenshot of the Customer Churn Dashboard that includes all customers.
+![Customer Churn Dashboard with all customers.](Churn_Dashboard_All_Customers.png)
+
+
+The below image is a screenshot of the Customer Churn Dashboard that only include customers who have churned.
+![Customer Churn Dashboard with only churned customers.](Churn_Dashboard_Churned_Customers.png)
