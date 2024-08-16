@@ -91,3 +91,18 @@ The below image is a screenshot of the Customer Churn Dashboard that includes al
 
 The below image is a screenshot of the Customer Churn Dashboard that only include customers who have churned.
 ![Customer Churn Dashboard with only churned customers.](Churn_Dashboard_Churned_Customers.png)
+
+* PhoneNow has a churn rate of 26.54%. An ideal percentage for churn is 5% to 7%.
+* The cost of churned customers is approximately $140,000.
+* 73.54% of Tech Tickets were submitted by customers who have churned. This indicates that customers who have left PhoneNow tend to experience technical difficulties.
+* The likelihood of churn decreases the longer a customer stays in business with PhoneNow. Over half of customers who have churned left PhoneNow within a year.
+* Nearly half of churned customers pay using electronic checks. Perhaps some of the technical issues involve difficulty in paying bills?
+* 88.55% of churned customers pay their bills monthly.
+* Customers who have churned have a higher tendency to use PhoneNow's streaming TV and movie services. However, they have a lower tendency to use PhoneNow's various support services such as online security, online backup, device protection, and tech support services. Customer's lack of interest in PhoneNow's support services may contribute to the tech issues that they face.
+* Compared to PhoneNow's total customer base, churned customers have a higher percentage of being seniors, with no partners or dependants.
+
+# Conclusions and Recommendations
+* Based on the data, it seems that tech issues are a major factor in customers deciding to leave PhoneNow.
+* To help mitigate tech issues, PhoneNow could market the benefits of their support services or bundle their support services with their phone and streaming services.
+* An investigations is needed to determine if there are any issues with PhoneNow's monthly electronic payment system or if there is a way to improve the system.
+* To help convince customers to stay in business with PhoneNow for a year, special deals and promotions could be offered to new customers for their first year. New customers who sign up for PhoneNow's streaming service could have free tech support for their first year.
