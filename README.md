@@ -20,7 +20,7 @@ PhoneNow's customers are hard earned and the company does not want to lose them.
 This data was provided to me by the PwC Power BI microinternship hosted by Forage. A copy of the data is included in this repository under the file name: 02 Churn-Dataset (Cleaned).xlsx.
 
 ## Data Attributes
-The data is from PhoneNow's call center. The data ranges from Jan. 1 2021 to Mar. 31 2021.
+The data is PhoneNow's customer data. It includes data on customer demographics, payment data, and the type of services they subscribed to. The date ranges from Jan. 1 2021 to Mar. 31 2021.
 * customerID - A unique ID issued to each customer.
 * gender - The customer's gender.
 * SeniorCitizen - Whether or not the customer is a senior citizen.
