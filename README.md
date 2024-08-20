@@ -15,6 +15,8 @@ PhoneNow's customers are hard earned and the company does not want to lose them.
 * Defining KPIs
 * Data Transfroming (Excel)
 * Data Transforming (Power BI)
+* Creating Measures (Power BI)
+* Creating Calculated Columns (Power BI)
 
 ## Data Sourcing
 This data was provided to me by the PwC Power BI microinternship hosted by Forage. A copy of the data is included in this repository under the file name: 02 Churn-Dataset (Cleaned).xlsx.
