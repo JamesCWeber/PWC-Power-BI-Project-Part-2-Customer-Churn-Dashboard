@@ -84,7 +84,7 @@ Device Protection % = DIVIDE(
 # In this example, we want the number of rows in the "DeviceProtection" column with a filter applied where the value is "Yes" (number of customers who subscribed to the Device Protection service).
 ```
 
-# Data Analysis and Visuals
+## Data Analysis and Visuals
 A copy of the below dashboards are included in this repository under the file name: James Weber PwC Churn Dashboard.pbix.
 
 The below image is a screenshot of the Customer Churn Dashboard that includes all customers.
@@ -103,7 +103,7 @@ The below image is a screenshot of the Customer Churn Dashboard that only includ
 * Customers who have churned have a higher tendency to use PhoneNow's streaming TV and movie services. However, they have a lower tendency to use PhoneNow's various support services such as online security, online backup, device protection, and tech support services. Customer's lack of interest in PhoneNow's support services may contribute to the tech issues that they face.
 * Compared to PhoneNow's total customer base, churned customers have a higher percentage of being seniors, with no partners or dependants.
 
-# Conclusions and Recommendations
+## Conclusions and Recommendations
 * Based on the data, it seems that tech issues are a major factor in customers deciding to leave PhoneNow.
 * To help mitigate tech issues, PhoneNow could market the benefits of their support services or bundle their support services with their phone and streaming services.
 * An investigations is needed to determine if there are any issues with PhoneNow's monthly electronic payment system or if there is a way to improve the system.
