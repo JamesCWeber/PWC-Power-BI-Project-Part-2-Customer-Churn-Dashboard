@@ -6,7 +6,7 @@ This dashboard is Part 2 of a project from the [PwC Power BI micro-internship](h
 In this task, the retention manager for PhoneNow, a fictional telecom company, has tasked me to put together a dashboard about customer retention. The purpose of creating the dashboard is to help identify which customers are at risk of churn in advance.
 
 ## Problem Statement
-PhoneNow's customers are hard earned and the company does not want to lose them. The retention department's goal is to convince customers who have terminated their contract to continue business with PhoneNow. However, the retention department contact customers after they have ternimated their contract. The department wants a more proactive approach by determining which customer base are at risk of churn.
+PhoneNow's customers are hard earned and the company does not want to lose them. The retention department's goal is to convince customers who have terminated their contract to continue business with PhoneNow. However, the retention department contact customers after they have terminated their contract. The department wants a more proactive approach by determining which customer base are at risk of churn.
 
 ## Skills Demonstrated
 * Power BI
