@@ -97,14 +97,17 @@ The below image is a screenshot of the Customer Churn Dashboard that only includ
 * PhoneNow has a churn rate of 26.54%. An ideal percentage for churn is 5% to 7%.
 * The cost of churned customers is approximately $140,000.
 * 73.54% of Tech Tickets were submitted by customers who have churned. This indicates that customers who have left PhoneNow tend to experience technical difficulties.
-* The likelihood of churn decreases the longer a customer stays in business with PhoneNow. Over half of customers who have churned left PhoneNow within a year.
-* Nearly half of churned customers pay using electronic checks. Perhaps some of the technical issues involve difficulty in paying bills?
-* 88.55% of churned customers pay their bills monthly.
-* Customers who have churned have a higher tendency to use PhoneNow's streaming TV and movie services. However, they have a lower tendency to use PhoneNow's various support services such as online security, online backup, device protection, and tech support services. Customer's lack of interest in PhoneNow's support services may contribute to the tech issues that they face.
-* Compared to PhoneNow's total customer base, churned customers have a higher percentage of being seniors, with no partners or dependants.
+* The likelihood of churn decreases the longer a customer stays in business with PhoneNow. The churn rate for first-year customers is 47.4%. Once a customer passes the 3-year mark, they become highly stable.
+* Customers who pay with electronic checks have a churn rate of 45.3%, nearly three times the rate of other automatic payment methods.
+* Customers who pay with month-to-month contracts have a churn rate of 42.7%.
+* Seniors and Single customers are the highest-risk demographic groups. Senior Citizens have a churn rate of 41.7%, nearly double that of non-seniors. This may explain why customers who use electronic checks or submitted tech tickets have higher churn rates.  Seniors may struggle more with technical issues or find manual billing more cumbersome.
+* Single customers have a 33% churn rate. People who live with family (spouse and dependents) may rely on PhoneNow's servide for school or entertainment. The hassle for discontinuing the service is much higher than for Single customer.
+* Retained customers were twice as likely to have online security (33% compared to 15%) and tech support (33% compared to 16%) than those who churned."
 
 ## Conclusions and Recommendations
 * Based on the data, it seems that tech issues are a major factor in customers deciding to leave PhoneNow.
-* To help mitigate tech issues, PhoneNow could market the benefits of their support services or bundle their support services with their phone and streaming services.
-* An investigations is needed to determine if there are any issues with PhoneNow's monthly electronic payment system or if there is a way to improve the system.
-* To help convince customers to stay in business with PhoneNow for a year, special deals and promotions could be offered to new customers for their first year. New customers who sign up for PhoneNow's streaming service could have free tech support for their first year.
+* Any technical ticket filed by a customer with less than 1 year of tenure should be automatically escalated. The retention team should call them after the fix to ensure satisfaction and offer a "reliability credit."
+* Offer online security and tech support for free for 6 months to any month-to-month customer. Offer a $5-$10 monthly discount to convert month-to-month users to 1-year contracts.
+* Target customers who pay with electronic checks, with a one-time $20 bill credit to switch to credit card or bank transfer payments.
+* Since seniors and single customers churn at nearly double the rate of families, create a "Senior Concierge" line. This demographic values human support, which can mitigate technical frustrations.
+
